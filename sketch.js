@@ -13,12 +13,12 @@ var spikesGroup
 var track, car1_img, car2_img, car3_img, car4_img;
 var rank,playerrank
 function preload(){
-  track = loadImage("../images/track.jpg");
-  car1_img = loadImage("../images/car1.png");
-  car2_img = loadImage("../images/car2.png");
+  track = loadImage("images/track.jpg");
+  car1_img = loadImage("images/car1.png");
+  car2_img = loadImage("images/car2.png");
   spikes=loadImage("images/spikes.png")
   sound=loadSound('bgs2.mp3')
-  ground = loadImage("../images/ground.png");
+  ground = loadImage("images/ground.png");
   lgt=loadImage("images/lgt.jpg")
 }
 
